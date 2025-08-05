@@ -1,0 +1,13 @@
+Flask==2.0.1
+Werkzeug==2.0.1
+Flask-SQLAlchemy==2.5.1
+Flask-Cors==3.0.10
+redis==4.0.2
+celery==5.2.7
+weasyprint==52.5
+PyJWT==2.6.0
+python-dotenv==0.21.1
+gunicorn==20.1.0
+matplotlib
+requests==2.31.0
+SQLAlchemy==1.4.49

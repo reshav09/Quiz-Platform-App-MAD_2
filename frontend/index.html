@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master V2 - Interactive Learning Platform</title>
+    <meta name="description" content="Test your knowledge, track your progress, and improve your skills with interactive quizzes on Quiz Master V2">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/styles.css">
+</head>
+<body>
+    <nav id="main-nav" class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#/">
+                🎓 Quiz Master V2
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/">Home</a>
+                    </li>
+                    <!-- Auth navigation items will be controlled by Vue -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="app">
+        <router-view></router-view>
+    </div>
+
+    <footer class="py-4 mt-5" style="background-color: var(--bg-secondary);">
+        <div class="container text-center">
+            <p class="mb-0" style="color: var(--text-secondary);">&copy; 2025 Quiz Master V2. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-router@3.5.3/dist/vue-router.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script src="./static/js/charts.js"></script>
+    <script src="./static/js/app.js"></script>
+    <script src="./static/js/debug.js"></script>
+</body>
+</html>
