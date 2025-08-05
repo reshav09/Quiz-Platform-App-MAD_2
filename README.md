@@ -16,8 +16,8 @@ A multi-user quiz platform designed to simulate an exam preparation portal for m
 ├── backend/
 │   ├── app.py                  # Main Flask application
 │   ├── config.py              # Flask and DB configurations
-│   ├── celery\_config.py       # Celery + Redis settings
-│   ├── quiz\_master.db         # SQLite database
+│   ├── celery_config.py       # Celery + Redis settings
+│   ├── quiz_master.db         # SQLite database
 │   ├── tasks.py               # Celery task definitions
 │   ├── auth/                  # Authentication logic (JWT)
 │   ├── models/                # SQLAlchemy models
