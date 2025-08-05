@@ -33,7 +33,7 @@ A multi-user quiz platform designed to simulate an exam preparation portal for m
 │           └── debug.js
 ├── requirements.txt           # Python dependencies
 
-````
+```
 
 ---
 
