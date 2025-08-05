@@ -10,8 +10,6 @@ A multi-user quiz platform designed to simulate an exam preparation portal for m
 
 ## 🗂️ Project Structure
 
-```
-
 ├── README.md
 ├── backend/
 │   ├── app.py                  # Main Flask application
