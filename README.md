@@ -10,7 +10,7 @@ A multi-user quiz platform designed to simulate an exam preparation portal for m
 
 ## 🗂️ Project Structure
 
-```markdown
+```
 
 ├── README.md
 ├── backend/
